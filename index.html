@@ -17,33 +17,34 @@
 
 <body>
     <!-- header section -->
-    <header class="bg-[#FFF4E7] pb-3">
-        <nav class="flex flex-row justify-between pt-12 max-w-6xl mx-auto items-center mb-24">
+    <header class="bg-[#FFF4E7] pb-3 lg:p-0 p-5">
+        <nav class="flex lg:flex-row flex-col justify-between pt-5 gap-5 lg:pt-12 max-w-6xl mx-auto items-center mb-24">
             <!-- left -->
             <div class="">
-                <h1 class="text[#131313] font-bold text-[45px]">G3 Architects
+                <h1 class="text[#131313] font-bold text-xl lg:text-[45px]">G3 Architects
                 </h1>
             </div>
             <!-- right -->
             <div class="text-[#424242] text-lg font-medium leading-6">
-                <ul class="flex flex-row ml-32 ">
-                    <li class="px-5">Home</li>
-                    <li class="px-5">About</li>
-                    <li class="px-5">Contact Us </li>
-                    <li class="px-5"> Login</li>
+                <ul class="flex flex-row lg:gap-3 gap-2">
+                    <li class="">Home</li>
+                    <li class="">About</li>
+                    <li class="">Contact Us </li>
+                    <li class=""> Login</li>
                 </ul>
             </div>
         </nav>
         <div class="flex flex-col justify-center items-center max-w-[862px] mx-auto text-center ">
             <h1 class="text-[#131313] font-bold font-work-sans  
-            text-[64px] leading-normal mb-5">Brand New <br>
+            lg:text-[64px] text-3xl leading-normal mb-5">Brand New <br>
                 Group of Architects
             </h1>
-            <p class="text-[#727272] text-base leading-7 font-normal">There are many variations of passages of Lorem
+            <p class="text-[#727272] text-sm lg:text-base leading-5 lg:leading-7 font-normal">There are many variations
+                of passages of Lorem
                 Ipsum available, but the majority
                 have suffered alteration in some form, by injected humour, or randomised words which don't look even</p>
             <button
-                class="bg-[#FF900E] px-6 py-5 rounded-md text-white text-xl font-semibold leading-normal mt-8">Explore
+                class="bg-[#FF900E] lg:px-6 lg:py-5 px-4 py-3 rounded-md text-white text-xl font-semibold leading-normal mt-8">Explore
                 More</button>
         </div>
         <div class="mb-10 mt-12 max-w-6xl mx-auto">
@@ -51,9 +52,9 @@
         </div>
     </header>
     <!-- feature section -->
-    <section class="flex justify-center items-center max-w-6xl gap-16 mx-auto mt-20">
+    <section class="flex lg:flex-row flex-col justify-center p-4 lg:p-0 items-center max-w-6xl gap-16 mx-auto mt-20">
         <!-- left -->
-        <div class=" grid grid-cols-2 gap-6 w-7/12">
+        <div class=" grid grid-cols-2 gap-6 lg:w-7/12">
             <div class="w-full">
                 <img class="w-full" src="./images/team1.png" alt="">
             </div>
@@ -68,12 +69,12 @@
             </div>
         </div>
         <!-- right -->
-        <div class=" w-5/12">
-            <h1 class="font-bold text-4xl text-[45px] leading-normal">
+        <div class=" lg:w-5/12 w-full">
+            <h1 class="font-bold text-2xl lg:text-[45px]  leading-normal">
                 <span class="text-[#727272]  font-medium ">Quick list</span> <span class="text-[#131313] font-bold ">of
                     Our</span> <br> <span class=" text-[#FF900E] font-bold ">Features</span>
             </h1>
-            <p class="text-[#727272] font-normal text-base leading-7 mt-6">
+            <p class="text-[#727272] font-normal lg:text-base text-sm  leading-7 mt-6">
                 There are many variations of passages of Lorem Ipsum available, but the majority have suffered
                 alteration in some form, by injected humour, or randomised words which don't look even
             </p>
@@ -83,13 +84,13 @@
         </div>
     </section>
     <!-- love and injoy section -->
-    <section class="flex flex-row items-center mt-32 mx-auto max-w-6xl justify-between gap-24">
+    <section class="flex lg:flex-row flex-col items-center lg:mt-32 mt-10 mx-auto max-w-6xl justify-between gap-24">
         <!-- left -->
         <div class="w-full ">
             <div class="mr-4 mx-5 mt-5">
                 <div class="flex flex-row gap-5 items-center">
-                    <div class="w-1 h-24 bg-[#ff900E]"></div>
-                    <h1 class="text-[#131313] font-bold text-[45px] leading-normal">
+                    <div class="w-1 h-14 lg:h-24 bg-[#ff900E]"></div>
+                    <h1 class="text-[#131313] font-bold text-2xl lg:text-[45px] leading-normal">
                         Features you will <br> love & enjoy
                     </h1>
                 </div>
@@ -141,24 +142,28 @@
             <div class="flex flex-col gap5"></div>
         </div>
         <!-- right -->
-        <div class="w-full">
-            <div class="relative">
+        <div class="w-full ">
+            <div class="relative lg:m-0 m-5">
                 <img src="./images/architect.png" alt="" class="object-cover">
 
-                <div class="bg-[#FF900E] border rounded-lg inline-block text-white leading-normal px-[42px] py-[45px] absolute -bottom-20 -left-14"> <span class="text-[65px] font-bold leading-[70px]">10+Year</span> <br>
-                    <span class="text-2xl font-medium leading-10">Experience</span></div>
+                <div
+                    class="bg-[#FF900E] border rounded-lg inline-block text-white leading-normal px-6 lg:px-[42px] py-5 lg:py-[45px] absolute -bottom-8 lg:-bottom-20 -left-6 lg:-left-14">
+                    <span class="text-2xl lg:text-[65px] font-bold leading-[70px]">10+Year</span> <br>
+                    <span class="text-2xl font-medium leading-10">Experience</span>
+                </div>
             </div>
         </div>
     </section>
     <!-- fect section -->
-    <section class="">
-        <h1 class="font-bold text-[45px] leading-normal max-w-6xl mx-auto mt-[150px]">
+    <section class="lg:m-0 m-8 lg:flex-none flex flex-col justify-center items-center">
+        <h1 class="font-bold lg:text-[45px] text-2xl leading-normal max-w-6xl mx-auto lg:mt-[150px] mt-10">
             Some Facts
         </h1>
-        <p class="text-[#727272] max-w-6xl mx-auto font-normal leading-6 font-base mb-24">
-            There are many variations of passages of Lorem Ipsum available, but <br> the majority have suffered alteration.
+        <p class="text-[#727272] max-w-6xl mx-auto font-normal leading-6 font-base mb-8 lg:mb-24">
+            There are many variations of passages of Lorem Ipsum available, but <br> the majority have suffered
+            alteration.
         </p>
-        <div class="flex justify-evenly ">
+        <div class="flex lg:flex-row flex-col justify-evenly gap-5">
             <div class="border border-[#FF900E] rounded-[8px] p-10 flex flex-col items-center">
                 <img class="" src="./images/icons/ribon.png" alt="">
                 <h1 class="font-bold text-[45px] flex justify-center items-center ">
@@ -199,16 +204,16 @@
     </section>
     <!-- sponspor section -->
     <section class="">
-        <div class="flex flex-col justify-center items-center mt-32 ">
-            <h1 class="font-bold text-4xl mb-4">
+        <div class="flex flex-col justify-center items-center lg:mt-32 mt-0">
+            <h1 class="font-bold lg:text-4xl text-2xl mb-4">
                 Our Sponspors
             </h1>
-            <p class="text-center font-normal text-base leading-6">
+            <p class="text-[#727272] text-center font-normal text-base leading-6">
                 There are many variations of passages of Lorem Ipsum available, but <br> the majority have suffered
                 alteration.
             </p>
         </div>
-        <div class="flex flex-row my-20 justify-evenly items-center">
+        <div class="flex lg:flex-row flex-col gap-3 my-20 justify-evenly items-center grayscale">
             <img src="./images/sponsors/spotify.png" alt="">
             <img src="./images/sponsors/amazon.png" alt="">
             <img src="./images/sponsors/google.png" alt="">
@@ -218,8 +223,8 @@
     </section>
     <!-- footer section -->
     <footer class="">
-        <div class="">
-            <p class="font-thin text-sm mx-40 my-40 rounded-md flex justify-center items-center px-5 py-6 bg-[#FFF4E7]">
+        <div class="mx-5 lg:max-w-6xl lg:mx-auto">
+            <p class="font-thin text-sm  rounded-md text-center px-5 py-6 bg-[#FFF4E7]">
                 All rights reserved copyright@2023 startup landing page design
             </p>
         </div>
